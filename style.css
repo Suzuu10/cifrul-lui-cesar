@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
+}
+
+.container {
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000000;
+    text-align: center;
+    width: 50%;
+
+}
+
+h1, h2 {
+    color: #303039;
+}
+
+input, button {
+    margin: 10px 0;
+    width: 95%;
+    padding: 10px;
+}
+
+button {
+    background-color: aquamarine;
+    color: blue;
+    border: none;
+    cursor: grab;
+}
+
+button:hover {
+    background-color: #119da4;
+    transform: translateY(-5px);
+}
+
+p {
+    font-size: 1.2em;
+    color: #505050;
+}
